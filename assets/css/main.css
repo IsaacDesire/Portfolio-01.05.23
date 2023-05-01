@@ -2463,6 +2463,11 @@ input[type="radio"]:focus + label:before {
 }
 
 /* Image */
+@media screen and (max-width: 600px) {
+  img {
+    max-width: 60%;
+  }
+}
 
 .image {
   border-radius: 8px;
